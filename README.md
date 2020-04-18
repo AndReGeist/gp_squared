@@ -34,9 +34,9 @@ List of required packages:
 *global_functions.py :* Contains functions that are frequently used in all scripts, e.g. RMSE compuyation.
 
 *main_multioutput.py :* Optimization of GPy-GP models and our GP2 models. This script is used to compute the GP hyperparameters
-used in *Table 1* via L-BFGS and maximum likelihood estimation.
+used in *Table 1* via L-BFGS-b and maximum likelihood estimation.
 
-*main_predict.py :*  Compute GPy-GP models and our GP2 models posterior mean and variance. This script is used to compute 
+*main_predict.py :*  Compute GPy-GP models and our GP^2 model's posterior mean and variance. This script is used to compute 
 the GPs' predictions and their RMSE/constraint error depicted in *Table 1*.
 
 *main_comparison.py :* Take precomputed model hyperparameters and compute and save predictions for different randomly 
@@ -44,8 +44,7 @@ sampled observations.
 
 *main_ODErollout.py :* This script is used to create *Figure 3c* of the paper. Take trained GP2 model of a "subclass_ODE_mass_on_surface" system and compute RK45 trajectory predictions. 
 
-*main_ODEplots.py :* This script is used to generate in teh supplementary material Figure 1 to Figure 5. That is generate trajectories of
-the example systems 1-3.
+*main_ODEplots.py :* This script is used to generate Figure 1 to Figure 5 in the supplementary material. That is, generate trajectories of the example systems 1-3.
 
 *main_figure1.py :* (origins from "main_predict.py"") This script is used to create *Figure 3a* of the paper. That is given 
 GP hyperparameters ("...params.npy" or "res_AMGPx.npy") and system ODE settings stored in the pickle-object "results" compute

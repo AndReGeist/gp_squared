@@ -1,4 +1,4 @@
-Copyright 2019 Max Planck Society. All rights reserved.
+Copyright 2020 Max Planck Society. All rights reserved.
 
 
 Source code of the paper "Learning Constrained Dynamics with Gauss' Principle adhering Gaussian Processes",  by

@@ -90,7 +90,7 @@ settings in "main_predict.py" to obtain these numbers.
 and running "main_multioutput.py". 
 
 #### General simulation settings
-**parameter name = parameter value for [Example1 | Unicycle | Duffing Oscillator] : Description**
+**parameter name = parameter value for [Example 1 | Example 2 | Example 3] : Description**
 - **noise_std=[0.1 | 0.01 | 0.1]**: Standard deviation of measurements
 - **l_min = 0.5:** Mimimum value of lengthscale in optimization
 - **l_max = 20:** Maximum value of lengthscale in optimization
@@ -98,7 +98,7 @@ and running "main_multioutput.py".
 - **sig_var_max = 10:** Maximum value of signal variance in optimization
 - **theta_pts:** Number of optimization restarts (The optimizer keeps the hyperparameter estimate with smallest negative log-likelihood)
 - **number_observations:** Number of observations used for training and predictions
--  **dev_con = [0.02 |  0.02 |  0.02}**: (Used if in the GP2 model the system parameters are estimated; flag_estimate_sys_params = True
+-  **dev_con = [0.02 |  0.02 |  0.02]**: (Used if in the GP2 model the system parameters are estimated; flag_estimate_sys_params = True
 ) Maximum initial deviation from true system parameters in optimization
 
 #### Misc:

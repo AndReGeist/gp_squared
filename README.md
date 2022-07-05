@@ -1,5 +1,7 @@
 Copyright 2020 Max Planck Society. All rights reserved.
 
+**This code is depreceated due to the following project providing a more capable and extensive implementation of GP^2:**
+https://github.com/lucasrm25/Using-Model-Knowledge-for-Learning-Forward-Dynamics
 
 Source code of the paper "Learning Constrained Dynamics with Gauss' Principle adhering Gaussian Processes",  by
 A. René Geist and Sebastian Trimpe. 
